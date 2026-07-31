@@ -2,6 +2,13 @@ set print pretty on
 set pagination off
 set output-radix 16
 
+
+# set logging for stderr and stdout
+set logging on
+set logging redirect on
+set logging overwrite on
+set logging file /tmp/pd.gdb.log
+
 # TODO: set invincible
 # TODO: set invisible
 

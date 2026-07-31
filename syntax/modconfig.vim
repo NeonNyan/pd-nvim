@@ -2,8 +2,6 @@ if exists("b:current_syntax")
   finish
 endif
 
-setlocal commentstring=#\ %s
-
 syntax keyword ModconfigStageKeyword stage
 syntax keyword ModconfigStageProperty bgfile tilesfile padsfile setupfile alarm
 syntax keyword ModconfigMusicKeyword music primarytrack xtrack
